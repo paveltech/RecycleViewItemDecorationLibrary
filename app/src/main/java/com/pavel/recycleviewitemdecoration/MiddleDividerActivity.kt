@@ -1,11 +1,9 @@
 package com.pavel.recycleviewitemdecoration
 
-import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.pavel.recycledecorate.MiddleDividerItemDecoration
-import com.pavel.recycledecorate.SeparatorDecoration
 import com.pavel.recycleviewitemdecoration.adapter.DashboardAdapter
 import com.pavel.recycleviewitemdecoration.pojo.DashboardItems
 import kotlinx.android.synthetic.main.activity_middle_divider.*
@@ -82,8 +80,5 @@ class MiddleDividerActivity : AppCompatActivity() {
         recycleview!!.adapter = adapter
 
     }
-
-
-
 
 }

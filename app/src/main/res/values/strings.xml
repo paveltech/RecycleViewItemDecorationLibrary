@@ -3,4 +3,6 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_middle_divider">MiddleDividerActivity</string>
     <string name="prescription">Prescription</string>
+    <string name="title_activity_eual_space">EualSpaceActivity</string>
+    <string name="title_activity_equal_item">EqualItemActivity</string>
 </resources>

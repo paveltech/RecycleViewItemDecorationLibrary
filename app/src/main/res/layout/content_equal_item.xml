@@ -5,12 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MiddleDividerActivity"
-    tools:showIn="@layout/activity_middle_divider">
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycleview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    tools:context=".EqualItemActivity"
+    tools:showIn="@layout/activity_equal_item">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

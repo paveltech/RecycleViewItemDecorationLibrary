@@ -22,4 +22,8 @@ class MainActivity : AppCompatActivity() {
     fun openMiddleDivider(view: View){
         startActivity(Intent(this@MainActivity , MiddleDividerActivity::class.java))
     }
+
+    fun openEqualDivider(view: View){
+        startActivity(Intent(this@MainActivity , EqualItemActivity::class.java))
+    }
 }
