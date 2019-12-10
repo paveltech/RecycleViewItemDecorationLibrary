@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">RecycleViewItemDecoration</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_middle_divider">MiddleDividerActivity</string>
+    <string name="title_activity_middle_divider">Middle Divider</string>
     <string name="prescription">Prescription</string>
-    <string name="title_activity_eual_space">EualSpaceActivity</string>
-    <string name="title_activity_equal_item">EqualItemActivity</string>
+    <string name="title_activity_eual_space">Equal Space</string>
+    <string name="title_activity_equal_item">Equal Space</string>
 </resources>

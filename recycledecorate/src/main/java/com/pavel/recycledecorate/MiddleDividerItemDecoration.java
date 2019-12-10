@@ -54,7 +54,6 @@ public final class MiddleDividerItemDecoration extends RecyclerView.ItemDecorati
             if (var4 == ALL) {
                 this.drawVertical(c, parent);
                 this.drawHorizontal(c, parent);
-
             } else if (var4 == VERTICAL) {
                 this.drawVertical(c, parent);
             } else {
@@ -66,6 +65,8 @@ public final class MiddleDividerItemDecoration extends RecyclerView.ItemDecorati
 
     private final void drawVertical(Canvas canvas, RecyclerView parent) {
         canvas.save();
+        boolean left = false;
+        boolean right = false;
         int leftInt;
         int rightInt;
         if (parent.getClipToPadding()) {
@@ -142,6 +143,8 @@ public final class MiddleDividerItemDecoration extends RecyclerView.ItemDecorati
 
     private final void drawHorizontal(Canvas canvas, RecyclerView parent) {
         canvas.save();
+        boolean top = false;
+        boolean bottom = false;
         int topInt;
         int bottomInt;
         if (parent.getClipToPadding()) {
@@ -207,7 +210,7 @@ public final class MiddleDividerItemDecoration extends RecyclerView.ItemDecorati
         canvas.restore();
     }
 
-    public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
+    public void getItemOffsets( Rect outRect,  View view,  RecyclerView parent,  RecyclerView.State state) {
         if (this.mDivider == null) {
             outRect.set(0, 0, 0, 0);
         } else {
@@ -230,7 +233,7 @@ public final class MiddleDividerItemDecoration extends RecyclerView.ItemDecorati
         }
     }
 
-    public MiddleDividerItemDecoration(Context context, int orientation) {
+    public MiddleDividerItemDecoration( Context context, int orientation) {
         super();
 
         this.mBounds = new Rect();
@@ -240,7 +243,7 @@ public final class MiddleDividerItemDecoration extends RecyclerView.ItemDecorati
         this.setOrientation(orientation);
     }
 
-    public static class Companion {
+    public static final class Companion {
 
         public  int getHORIZONTAL() {
             return MiddleDividerItemDecoration.HORIZONTAL;

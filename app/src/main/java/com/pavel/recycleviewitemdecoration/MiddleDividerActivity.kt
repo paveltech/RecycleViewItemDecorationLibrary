@@ -66,10 +66,6 @@ class MiddleDividerActivity : AppCompatActivity() {
                 "" + resources.getString(R.string.prescription), R.drawable.ic_prescription)
         )
 
-        dashboardItemsArrayList!!.add(
-            DashboardItems(
-                "" + resources.getString(R.string.prescription), R.drawable.ic_prescription)
-        )
 
         recycleview.setHasFixedSize(true)
 
